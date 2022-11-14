@@ -7,6 +7,7 @@ import java.net.Socket;
 public class Admin {
     public static void createFile(String str) {
         File newFile = new File(str);
+
         try
         {
             boolean created = newFile.createNewFile();
